@@ -23,14 +23,3 @@ exports[`App.vue Template should match snapshot 1`] = `
   <!--v-if-->
 </div>
 `;
-
-exports[`App.vue Template should match snapshot2 1`] = `
-<div>
-  <button
-    id="press-to-display"
-  >
-    Lancer le Quiz
-  </button>
-  <!--v-if-->
-</div>
-`;
