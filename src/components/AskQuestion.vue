@@ -2,10 +2,10 @@
   <div>
     <h2 id="question-text">{{ question.text }}</h2>
     <button id="select-true-answer" @click="respondAnAnswer(true)">
-      {{ WORDINGPAGE.true }}
+      {{ WORDINGPAGE.trueAnswer }}
     </button>
     <button id="select-false-answer" @click="respondAnAnswer(false)">
-      {{ WORDINGPAGE.false }}
+      {{ WORDINGPAGE.falseAnswer }}
     </button>
   </div>
 </template>
@@ -18,13 +18,13 @@ interface Question {
   answer: boolean | null;
 }
 interface WordingPage {
-  true: string;
-  false: string;
+  trueAnswer: string;
+  falseAnswer: string;
 }
 
 const WORDINGPAGE: WordingPage = {
-  true: "Vrai",
-  false: "Faux",
+  trueAnswer: "Vrai",
+  falseAnswer: "Faux",
 };
 const props = defineProps({
   question: { type: Object as PropType<Question>, default: () => ({}) },
