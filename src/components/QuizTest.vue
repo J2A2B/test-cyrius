@@ -5,7 +5,7 @@
       <template v-for="(question, i) in data.questions">
         <AskQuestion
           v-if="i === data.questionIndex"
-          :key="i"
+          :key="question.text"
           :index="i"
           :question="question"
           @emitAnswer="triggerAnswer"

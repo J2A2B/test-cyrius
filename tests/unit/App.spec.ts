@@ -35,7 +35,7 @@ describe("On click on the button", () => {
 
     await expect(wrapper.vm.data.isClosed).toEqual(false);
   });
-  it("should set the button text to Lancer le Quiz", async () => {
+  it("should set the button text to Fermer le Quiz", async () => {
     const wrapper = mount(App);
     await wrapper.find("#press-to-display").trigger("click");
 
