@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue Template When the Quiz is open should match snapshot 1`] = `
+<div>
+  <button
+    id="press-to-display"
+  >
+    Fermer le Quiz
+  </button>
+  <quiz-test-stub
+    titlequiz="Mon super Quiz"
+  />
+</div>
+`;
+
+exports[`App.vue Template should match snapshot 1`] = `
+<div>
+  <button
+    id="press-to-display"
+  >
+    Lancer le Quiz
+  </button>
+  <!--v-if-->
+</div>
+`;
+
+exports[`App.vue Template should match snapshot2 1`] = `
+<div>
+  <button
+    id="press-to-display"
+  >
+    Lancer le Quiz
+  </button>
+  <!--v-if-->
+</div>
+`;

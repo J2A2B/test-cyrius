@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuizTest.vue Template should match snapshot 1`] = `
+<div
+  class="entry-quiz"
+>
+  <h1
+    id="user-text"
+  />
+  <div>
+    
+    
+    <ask-question-stub
+      index="0"
+      question="[object Object]"
+    />
+    
+    
+    <!--v-if-->
+    
+    
+    <!--v-if-->
+    
+    
+  </div>
+</div>
+`;
